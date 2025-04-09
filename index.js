@@ -38,7 +38,7 @@ app.post('/contact', (req, res) => {
 
 app.get('/user/:name', (req, res) => {
   const { name } = req.params;
-  res.send(`Hello, ${name}!`);
+  res.send(`🎉 Hello, ${name}! Welcome to Brooklynn’s Creative Space.`);
 });
 
 app.get('/download', (req, res) => {
